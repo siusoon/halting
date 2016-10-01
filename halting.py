@@ -6,8 +6,8 @@ programB= raw_input("Get input: ")
 
 #assume the function 'DoesItHalt' is a procedure that solves the halting problem
 if DoesItHalt(programB):  
-	print "No but it actually loops"  
- 	while True:  #performs as infinite loop
+	print "No"  
+ 	while True:  #performs as infinite loops i.e not halt
 		pass 
 else:
-	print "Yes but it actually halts" #program terminates
+	print "Yes" #performs as an end i.e halt
